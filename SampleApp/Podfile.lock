@@ -1,0 +1,16 @@
+PODS:
+  - EgnyteSDK (1.0.0)
+
+DEPENDENCIES:
+  - EgnyteSDK (from `../`)
+
+EXTERNAL SOURCES:
+  EgnyteSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EgnyteSDK: 9505cac6ed3f498a9b96217b89e04bc0aeb49665
+
+PODFILE CHECKSUM: 8769b2454011f62caba710b0f0d3c4c7f6312732
+
+COCOAPODS: 1.1.1

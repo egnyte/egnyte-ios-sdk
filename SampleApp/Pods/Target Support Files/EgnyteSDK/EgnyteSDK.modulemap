@@ -1,0 +1,6 @@
+framework module EgnyteSDK {
+  umbrella header "EgnyteSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

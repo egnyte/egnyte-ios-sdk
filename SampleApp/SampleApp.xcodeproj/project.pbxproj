@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66072B411DEDB63700BB53D5 /* EgnyteActionsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66072B401DEDB63700BB53D5 /* EgnyteActionsHandler.swift */; };
+		666033C91DE4D6F500E0F276 /* EgnytePickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666033C71DE4D6F500E0F276 /* EgnytePickerTableViewCell.swift */; };
+		666033CA1DE4D6F500E0F276 /* EgnytePickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 666033C81DE4D6F500E0F276 /* EgnytePickerTableViewCell.xib */; };
+		666033CF1DE646C000E0F276 /* EgnytePickerTableViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666033CE1DE646C000E0F276 /* EgnytePickerTableViewPresenter.swift */; };
+		666033D21DE65CC800E0F276 /* EgnytePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666033D11DE65CC800E0F276 /* EgnytePicker.swift */; };
+		668D25161DF02A5900C6DFDE /* FileDisplayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D25151DF02A5900C6DFDE /* FileDisplayService.swift */; };
+		668D251A1DF02B6A00C6DFDE /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668D25191DF02B6A00C6DFDE /* QuickLook.framework */; };
+		668D251E1DF03D0D00C6DFDE /* EgnyteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D251D1DF03D0D00C6DFDE /* EgnyteItem.swift */; };
+		668D25201DF053A200C6DFDE /* EgnyteSearchResultsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D251F1DF053A200C6DFDE /* EgnyteSearchResultsPresenter.swift */; };
+		668D25221DF0567300C6DFDE /* EgnyteSearchDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668D25211DF0567300C6DFDE /* EgnyteSearchDataSource.swift */; };
 		668EAF611DB4FD5200FA33C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668EAF601DB4FD5200FA33C4 /* AppDelegate.swift */; };
-		668EAF631DB4FD5200FA33C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668EAF621DB4FD5200FA33C4 /* ViewController.swift */; };
+		668EAF631DB4FD5200FA33C4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668EAF621DB4FD5200FA33C4 /* MainViewController.swift */; };
 		668EAF661DB4FD5200FA33C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668EAF641DB4FD5200FA33C4 /* Main.storyboard */; };
 		668EAF681DB4FD5200FA33C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 668EAF671DB4FD5200FA33C4 /* Assets.xcassets */; };
 		668EAF6B1DB4FD5200FA33C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668EAF691DB4FD5200FA33C4 /* LaunchScreen.storyboard */; };
 		668EAF761DB4FD5200FA33C4 /* SampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668EAF751DB4FD5200FA33C4 /* SampleAppTests.swift */; };
 		668EAF811DB4FD5200FA33C4 /* SampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668EAF801DB4FD5200FA33C4 /* SampleAppUITests.swift */; };
-		668EAFA31DB4FE5F00FA33C4 /* EgnyteSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668EAFA01DB4FE4600FA33C4 /* EgnyteSDK.framework */; };
+		66B9C1DE1DE5DB8E00363526 /* EgnyteTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B9C1DD1DE5DB8E00363526 /* EgnyteTheme.swift */; };
+		66B9C1E31DE87E6600363526 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B9C1E11DE87E6600363526 /* ProgressViewController.swift */; };
+		66B9C1E41DE87E6600363526 /* ProgressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66B9C1E21DE87E6600363526 /* ProgressViewController.xib */; };
+		66B9C1E71DE8832400363526 /* ProgressViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B9C1E61DE8832400363526 /* ProgressViewPresenter.swift */; };
+		66B9C1F01DEC717800363526 /* EgnytePickerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B9C1EF1DEC717800363526 /* EgnytePickerDataSource.swift */; };
+		66CD7AB11DE4938700C594AB /* EgnytePickerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD7AB01DE4938700C594AB /* EgnytePickerTableViewController.swift */; };
+		66CD7ABB1DE5A18000C594AB /* EgnyteMimeIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD7ABA1DE5A18000C594AB /* EgnyteMimeIcon.swift */; };
+		66CD7ABD1DE5A6D000C594AB /* EgnytePickerCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CD7ABC1DE5A6D000C594AB /* EgnytePickerCellViewModel.swift */; };
+		89113162CA12B3380462F947 /* Pods_SampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0492FC01B0935CA55F7538A /* Pods_SampleApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,26 +50,35 @@
 			remoteGlobalIDString = 668EAF5C1DB4FD5200FA33C4;
 			remoteInfo = SampleApp;
 		};
-		668EAF9F1DB4FE4600FA33C4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 668EAF9A1DB4FE4600FA33C4 /* EgnyteSDK.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 660F09081DB4F4260080DCE3;
-			remoteInfo = EgnyteSDK;
-		};
-		668EAFA11DB4FE4600FA33C4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 668EAF9A1DB4FE4600FA33C4 /* EgnyteSDK.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 660F09111DB4F4260080DCE3;
-			remoteInfo = EgnyteSDKTests;
-		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		66CD7AB91DE58ECE00C594AB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		66072B401DEDB63700BB53D5 /* EgnyteActionsHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EgnyteActionsHandler.swift; sourceTree = "<group>"; };
+		666033C71DE4D6F500E0F276 /* EgnytePickerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EgnytePickerTableViewCell.swift; sourceTree = "<group>"; };
+		666033C81DE4D6F500E0F276 /* EgnytePickerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EgnytePickerTableViewCell.xib; sourceTree = "<group>"; };
+		666033CE1DE646C000E0F276 /* EgnytePickerTableViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EgnytePickerTableViewPresenter.swift; sourceTree = "<group>"; };
+		666033D11DE65CC800E0F276 /* EgnytePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EgnytePicker.swift; sourceTree = "<group>"; };
+		668D25151DF02A5900C6DFDE /* FileDisplayService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileDisplayService.swift; sourceTree = "<group>"; };
+		668D25191DF02B6A00C6DFDE /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		668D251D1DF03D0D00C6DFDE /* EgnyteItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EgnyteItem.swift; sourceTree = "<group>"; };
+		668D251F1DF053A200C6DFDE /* EgnyteSearchResultsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EgnyteSearchResultsPresenter.swift; sourceTree = "<group>"; };
+		668D25211DF0567300C6DFDE /* EgnyteSearchDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EgnyteSearchDataSource.swift; sourceTree = "<group>"; };
 		668EAF5D1DB4FD5200FA33C4 /* SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		668EAF601DB4FD5200FA33C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		668EAF621DB4FD5200FA33C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		668EAF621DB4FD5200FA33C4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		668EAF651DB4FD5200FA33C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		668EAF671DB4FD5200FA33C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		668EAF6A1DB4FD5200FA33C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,7 +89,18 @@
 		668EAF7C1DB4FD5200FA33C4 /* SampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		668EAF801DB4FD5200FA33C4 /* SampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleAppUITests.swift; sourceTree = "<group>"; };
 		668EAF821DB4FD5200FA33C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		668EAF9A1DB4FE4600FA33C4 /* EgnyteSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EgnyteSDK.xcodeproj; path = ../EgnyteSDK/EgnyteSDK.xcodeproj; sourceTree = "<group>"; };
+		66B9C1DD1DE5DB8E00363526 /* EgnyteTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EgnyteTheme.swift; sourceTree = "<group>"; };
+		66B9C1E11DE87E6600363526 /* ProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		66B9C1E21DE87E6600363526 /* ProgressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgressViewController.xib; sourceTree = "<group>"; };
+		66B9C1E61DE8832400363526 /* ProgressViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressViewPresenter.swift; sourceTree = "<group>"; };
+		66B9C1EF1DEC717800363526 /* EgnytePickerDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EgnytePickerDataSource.swift; sourceTree = "<group>"; };
+		66BC059C1E1A59F300FEB56C /* SampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SampleApp.entitlements; sourceTree = "<group>"; };
+		66CD7AB01DE4938700C594AB /* EgnytePickerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EgnytePickerTableViewController.swift; sourceTree = "<group>"; };
+		66CD7ABA1DE5A18000C594AB /* EgnyteMimeIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EgnyteMimeIcon.swift; sourceTree = "<group>"; };
+		66CD7ABC1DE5A6D000C594AB /* EgnytePickerCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EgnytePickerCellViewModel.swift; sourceTree = "<group>"; };
+		A3C09DBE281BB605269C61CB /* Pods-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleApp/Pods-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		C0492FC01B0935CA55F7538A /* Pods_SampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0CBB9CA33BFD1D2DBBB4C28 /* Pods-SampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleApp/Pods-SampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +108,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				668EAFA31DB4FE5F00FA33C4 /* EgnyteSDK.framework in Frameworks */,
+				668D251A1DF02B6A00C6DFDE /* QuickLook.framework in Frameworks */,
+				89113162CA12B3380462F947 /* Pods_SampleApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +130,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66800CA61E1D0B13001B5EB9 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				66B9C1E61DE8832400363526 /* ProgressViewPresenter.swift */,
+				66B9C1E21DE87E6600363526 /* ProgressViewController.xib */,
+				66B9C1E11DE87E6600363526 /* ProgressViewController.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		66800CA81E1D0B65001B5EB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				66CD7ABA1DE5A18000C594AB /* EgnyteMimeIcon.swift */,
+				66B9C1DD1DE5DB8E00363526 /* EgnyteTheme.swift */,
+				666033C81DE4D6F500E0F276 /* EgnytePickerTableViewCell.xib */,
+				666033C71DE4D6F500E0F276 /* EgnytePickerTableViewCell.swift */,
+				66CD7AB01DE4938700C594AB /* EgnytePickerTableViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		66800CA91E1D0BAE001B5EB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				66CD7ABC1DE5A6D000C594AB /* EgnytePickerCellViewModel.swift */,
+				668D251D1DF03D0D00C6DFDE /* EgnyteItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		66800CAA1E1D0BD5001B5EB9 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				668D251F1DF053A200C6DFDE /* EgnyteSearchResultsPresenter.swift */,
+				666033CE1DE646C000E0F276 /* EgnytePickerTableViewPresenter.swift */,
+				66072B401DEDB63700BB53D5 /* EgnyteActionsHandler.swift */,
+				668D25151DF02A5900C6DFDE /* FileDisplayService.swift */,
+				668D25211DF0567300C6DFDE /* EgnyteSearchDataSource.swift */,
+				66B9C1EF1DEC717800363526 /* EgnytePickerDataSource.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		668D25181DF02B6A00C6DFDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				668D25191DF02B6A00C6DFDE /* QuickLook.framework */,
+				C0492FC01B0935CA55F7538A /* Pods_SampleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		668EAF541DB4FD5200FA33C4 = {
 			isa = PBXGroup;
 			children = (
@@ -98,7 +190,8 @@
 				668EAF741DB4FD5200FA33C4 /* SampleAppTests */,
 				668EAF7F1DB4FD5200FA33C4 /* SampleAppUITests */,
 				668EAF5E1DB4FD5200FA33C4 /* Products */,
-				668EAF9A1DB4FE4600FA33C4 /* EgnyteSDK.xcodeproj */,
+				668D25181DF02B6A00C6DFDE /* Frameworks */,
+				8AFF3E10A9D7A1688684EE32 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,8 +208,11 @@
 		668EAF5F1DB4FD5200FA33C4 /* SampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				66CD7AAD1DE492A600C594AB /* EgnytePicker */,
+				66800CA61E1D0B13001B5EB9 /* Progress */,
+				66BC059C1E1A59F300FEB56C /* SampleApp.entitlements */,
 				668EAF601DB4FD5200FA33C4 /* AppDelegate.swift */,
-				668EAF621DB4FD5200FA33C4 /* ViewController.swift */,
+				668EAF621DB4FD5200FA33C4 /* MainViewController.swift */,
 				668EAF641DB4FD5200FA33C4 /* Main.storyboard */,
 				668EAF671DB4FD5200FA33C4 /* Assets.xcassets */,
 				668EAF691DB4FD5200FA33C4 /* LaunchScreen.storyboard */,
@@ -143,13 +239,24 @@
 			path = SampleAppUITests;
 			sourceTree = "<group>";
 		};
-		668EAF9B1DB4FE4600FA33C4 /* Products */ = {
+		66CD7AAD1DE492A600C594AB /* EgnytePicker */ = {
 			isa = PBXGroup;
 			children = (
-				668EAFA01DB4FE4600FA33C4 /* EgnyteSDK.framework */,
-				668EAFA21DB4FE4600FA33C4 /* EgnyteSDKTests.xctest */,
+				66800CAA1E1D0BD5001B5EB9 /* Presenter */,
+				66800CA91E1D0BAE001B5EB9 /* Model */,
+				66800CA81E1D0B65001B5EB9 /* View */,
+				666033D11DE65CC800E0F276 /* EgnytePicker.swift */,
 			);
-			name = Products;
+			path = EgnytePicker;
+			sourceTree = "<group>";
+		};
+		8AFF3E10A9D7A1688684EE32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0CBB9CA33BFD1D2DBBB4C28 /* Pods-SampleApp.debug.xcconfig */,
+				A3C09DBE281BB605269C61CB /* Pods-SampleApp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,9 +266,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 668EAF851DB4FD5200FA33C4 /* Build configuration list for PBXNativeTarget "SampleApp" */;
 			buildPhases = (
+				1CCBC13572851DC8F9927A88 /* [CP] Check Pods Manifest.lock */,
 				668EAF591DB4FD5200FA33C4 /* Sources */,
 				668EAF5A1DB4FD5200FA33C4 /* Frameworks */,
 				668EAF5B1DB4FD5200FA33C4 /* Resources */,
+				66CD7AB91DE58ECE00C594AB /* Embed Frameworks */,
+				09C25C047C67467423B4069D /* [CP] Embed Pods Frameworks */,
+				533B26B4DBFF2D5B6CDC23FB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,7 +326,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Egnyte;
 				TargetAttributes = {
 					668EAF5C1DB4FD5200FA33C4 = {
@@ -223,6 +334,11 @@
 						DevelopmentTeam = FELUD555VC;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					668EAF701DB4FD5200FA33C4 = {
 						CreatedOnToolsVersion = 8.0;
@@ -251,12 +367,6 @@
 			mainGroup = 668EAF541DB4FD5200FA33C4;
 			productRefGroup = 668EAF5E1DB4FD5200FA33C4 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 668EAF9B1DB4FE4600FA33C4 /* Products */;
-					ProjectRef = 668EAF9A1DB4FE4600FA33C4 /* EgnyteSDK.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				668EAF5C1DB4FD5200FA33C4 /* SampleApp */,
@@ -266,23 +376,6 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		668EAFA01DB4FE4600FA33C4 /* EgnyteSDK.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = EgnyteSDK.framework;
-			remoteRef = 668EAF9F1DB4FE4600FA33C4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		668EAFA21DB4FE4600FA33C4 /* EgnyteSDKTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = EgnyteSDKTests.xctest;
-			remoteRef = 668EAFA11DB4FE4600FA33C4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		668EAF5B1DB4FD5200FA33C4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -291,6 +384,8 @@
 				668EAF6B1DB4FD5200FA33C4 /* LaunchScreen.storyboard in Resources */,
 				668EAF681DB4FD5200FA33C4 /* Assets.xcassets in Resources */,
 				668EAF661DB4FD5200FA33C4 /* Main.storyboard in Resources */,
+				66B9C1E41DE87E6600363526 /* ProgressViewController.xib in Resources */,
+				666033CA1DE4D6F500E0F276 /* EgnytePickerTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,13 +405,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09C25C047C67467423B4069D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleApp/Pods-SampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CCBC13572851DC8F9927A88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		533B26B4DBFF2D5B6CDC23FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleApp/Pods-SampleApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		668EAF591DB4FD5200FA33C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				668EAF631DB4FD5200FA33C4 /* ViewController.swift in Sources */,
+				66CD7AB11DE4938700C594AB /* EgnytePickerTableViewController.swift in Sources */,
+				66B9C1E71DE8832400363526 /* ProgressViewPresenter.swift in Sources */,
+				668EAF631DB4FD5200FA33C4 /* MainViewController.swift in Sources */,
+				66CD7ABD1DE5A6D000C594AB /* EgnytePickerCellViewModel.swift in Sources */,
+				66072B411DEDB63700BB53D5 /* EgnyteActionsHandler.swift in Sources */,
 				668EAF611DB4FD5200FA33C4 /* AppDelegate.swift in Sources */,
+				668D251E1DF03D0D00C6DFDE /* EgnyteItem.swift in Sources */,
+				666033D21DE65CC800E0F276 /* EgnytePicker.swift in Sources */,
+				66B9C1E31DE87E6600363526 /* ProgressViewController.swift in Sources */,
+				666033CF1DE646C000E0F276 /* EgnytePickerTableViewPresenter.swift in Sources */,
+				66B9C1F01DEC717800363526 /* EgnytePickerDataSource.swift in Sources */,
+				66B9C1DE1DE5DB8E00363526 /* EgnyteTheme.swift in Sources */,
+				666033C91DE4D6F500E0F276 /* EgnytePickerTableViewCell.swift in Sources */,
+				668D25201DF053A200C6DFDE /* EgnyteSearchResultsPresenter.swift in Sources */,
+				668D25221DF0567300C6DFDE /* EgnyteSearchDataSource.swift in Sources */,
+				668D25161DF02A5900C6DFDE /* FileDisplayService.swift in Sources */,
+				66CD7ABB1DE5A18000C594AB /* EgnyteMimeIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +547,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -439,6 +598,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -466,10 +626,14 @@
 		};
 		668EAF861DB4FD5200FA33C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0CBB9CA33BFD1D2DBBB4C28 /* Pods-SampleApp.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SampleApp/SampleApp.entitlements;
 				DEVELOPMENT_TEAM = FELUD555VC;
 				INFOPLIST_FILE = SampleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.egnyte.sdk.ios.SampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -479,10 +643,14 @@
 		};
 		668EAF871DB4FD5200FA33C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3C09DBE281BB605269C61CB /* Pods-SampleApp.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SampleApp/SampleApp.entitlements;
 				DEVELOPMENT_TEAM = FELUD555VC;
 				INFOPLIST_FILE = SampleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.egnyte.sdk.ios.SampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";

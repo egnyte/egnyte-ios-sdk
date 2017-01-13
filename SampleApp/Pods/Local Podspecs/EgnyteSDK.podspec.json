@@ -1,0 +1,25 @@
+{
+  "name": "EgnyteSDK",
+  "version": "1.0.0",
+  "summary": "Egnyte SDK for iOS",
+  "homepage": "https://git.egnyte-internal.com/mobile/sdk-ios.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": "Egnyte",
+  "source": {
+    "git": "https://git.egnyte-internal.com/mobile/sdk-ios.git",
+    "tag": "v1.0.0"
+  },
+  "documentation_url": "https://developers.egnyte.com/docs",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "EgnyteSDK/Classes/**/*.swift",
+  "resource_bundles": {
+    "EgnyteSDK": [
+      "EgnyteSDK/Resources/*.lproj"
+    ]
+  }
+}

@@ -2,8 +2,8 @@
 //  SampleAppUITests.swift
 //  SampleAppUITests
 //
-//  Created by MP0091 on 17.10.2016.
-//  Copyright © 2016 Egnyte. All rights reserved.
+//  Created by Adam Kędzia on 17.10.2016.
+//  Copyright © 2017 Egnyte. All rights reserved.
 //
 
 import XCTest

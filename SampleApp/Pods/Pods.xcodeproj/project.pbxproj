@@ -1,0 +1,877 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15E8B3C7E5392B18946885D650ED30CB /* EgnyteSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FFF644D70CBF7B34056148DC5CC5278 /* EgnyteSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17EC6E79DB176BE4136C10B6A4109007 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2047B17D461E93FA17AF0EC8BAAD1F /* LoginViewController.swift */; };
+		1E5EE45F0E4C950B8ADB603297EF7F97 /* EgnyteEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7800AC81F3A74BF198D7B6698D25A07 /* EgnyteEntity.swift */; };
+		21ED3A5AA6D248B1286692135A3D1047 /* DeleteRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B994C918011567AB81536881FE80B77 /* DeleteRequest.swift */; };
+		2370CBD0FEDDCB1888E5836284FD751D /* CreateFolderRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B7230D7247873DEE938D5D4D5E16FB /* CreateFolderRequest.swift */; };
+		245AF0E861D1AD3CE8944256B942DEC2 /* RequestThrottler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B994561065BB6BAFC0FFFB7CE0F061 /* RequestThrottler.swift */; };
+		28138AFEDE4F8C7CC04978D9E00EB79D /* FileMetadataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACABF9305292182C920998FFD45EBC62 /* FileMetadataRequest.swift */; };
+		2B40C7F3AA39BB24D779837277A6F9BD /* ListFolderContentRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5627F5F1FA31E6269440EC234A59BFA4 /* ListFolderContentRequestBuilder.swift */; };
+		2DBFE957E5ED79801012829B91E804B6 /* SearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963B41573D80C4374FF804E3F5E99114 /* SearchRequest.swift */; };
+		3208BD197CF3AC71E569D1B55A14E5FB /* OAuthHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746B0082E453360F0519EF278BA06C03 /* OAuthHelper.swift */; };
+		340ABA1B5E27C31BFE8A7EEA97902543 /* UploadRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340F198C7376BC0190F5FD2F6A30FAB6 /* UploadRequest.swift */; };
+		4121BD4D5D8062393270F277F9D95336 /* CreateLinkRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED705F96133521B01D72B20EF16CD6D /* CreateLinkRequestBuilder.swift */; };
+		4726E41D6AF8053146048101DD623441 /* RequestErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A141AA53738A34BB2C9D8E4B67054D /* RequestErrorHandler.swift */; };
+		4A9C56411EFB910318799C585F6C44D3 /* EgnyteBaseRequestErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1BEF6EB68D4AEAD070722DB55A82C9 /* EgnyteBaseRequestErrorHandler.swift */; };
+		4B8CCA57428254D0A3DC115EB20D33E2 /* EgnyteSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EF6BF6CAF0FD4A1C4DE4AED30E38CD10 /* EgnyteSDK.bundle */; };
+		5262E483701396170F3CECB76E9CF1A7 /* FileDownloadRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F562E4ED9BBC4E070A5FD038A4C9D3 /* FileDownloadRequest.swift */; };
+		543B741C486417EBC93CCCED937D5233 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 48D841857530A66C5DFF1907C94442E0 /* en.lproj */; };
+		55ECF743C69732F640681D6AE7F99B67 /* ListFolderContentRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54565A955879E06488DC4BA853823CA9 /* ListFolderContentRequest.swift */; };
+		65BFBF0B28132A707340294A77FBABDC /* RequestMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD24A3B8D9585B903EFC850273AF72C /* RequestMiddleware.swift */; };
+		66B5561B588F421D8333DC54A80F0157 /* LinkExpiry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DB739B7352ADB272272AFA44C443E5 /* LinkExpiry.swift */; };
+		712542EB1400DE16F39C289DBAA2EEF1 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F9C3C4960F228C517BB1B48C941BBE /* LoginService.swift */; };
+		7B9105D7972843861B6EC6CF91542B00 /* CreateLinkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DE39FEE810890D011CC910876978EE /* CreateLinkResponse.swift */; };
+		7E1576BC0CB3322E0546E2EF66A5AC88 /* EgnyteSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD6F8441F161C9F2ADA7B843EA371F4 /* EgnyteSDK-dummy.m */; };
+		8085C9BD9867A03E3E5C7BEC5AFDD746 /* CreateLinkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555CDC70CDAC73977A890ACBE8FBA120 /* CreateLinkRequest.swift */; };
+		80DF1E2879F87C1CCC349A640CEEDDD7 /* UploadResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69577A198BF7F91A9C68226AF9542D9 /* UploadResponses.swift */; };
+		80E8899AEA59050D32AA53419848123F /* AuthRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0D972C8297FF591B502D73F056F55B /* AuthRequest.swift */; };
+		820244820365C87F5A2CAEA41544E85E /* ValueObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24D4496B6FCAE725589ADF7AAF85548 /* ValueObserver.swift */; };
+		85C28BC009D7944C1EC20AAE2127D4D0 /* Pods-SampleApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FAFDE20BDDFF0E8A40FBD159EB86BE41 /* Pods-SampleApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ABE9A8423461B0087EEA0326B5A0AB1 /* EgnyteBaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F848A56EECBAC28004163D3B51979D64 /* EgnyteBaseRequest.swift */; };
+		90513B2AE398FB725B1E11DF04ADF5F0 /* ChunkDownloadRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1431D603731618AFF26C07859BBB00F8 /* ChunkDownloadRequest.swift */; };
+		A320235E9877AF3C3F5AC543D64E97D2 /* EgnyteAuthMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = B457A3075EEB2C05465753AF9A8E3FDC /* EgnyteAuthMiddleware.swift */; };
+		A6A1BA69DE87B874FC385F2792688556 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A95A3FC8E411F8A613287B6A1F912854 /* EgnyteErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C21E4FB7517CE62B5175BC1F164A7B /* EgnyteErrors.swift */; };
+		BBC8CC8397CE00D29EC557A2730CCAC5 /* EgnyteSearchEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BB101816B749FC6389DFCABC86A769 /* EgnyteSearchEntity.swift */; };
+		C00125A6911CFD52032B733933CA5865 /* FolderMetadataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EB045EA23D8189A22D59D99F98A940 /* FolderMetadataRequest.swift */; };
+		CDDBB620C4E17BD23B993765AE9C78D3 /* EgnyteAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C92A0322772B46D12DE1E9F09F9786 /* EgnyteAPIClient.swift */; };
+		D621315A2201EA3D016E4AAB8CC51082 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		DC7DB3629540DBEE7A4C339E6B67EABA /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD74483A4CEDB4EC2944A5556A83D8B /* AuthResponse.swift */; };
+		EA138AAA09FAF7DE7D5F5CAA6C193961 /* Pods-SampleApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03134C79E14CFE0BBC83A3961C22A4A2 /* Pods-SampleApp-dummy.m */; };
+		F3C736E2297E19E2471B06ED349BEFCB /* ChunkedUploadRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383501713558610A79BE7B851F6C19A6 /* ChunkedUploadRequest.swift */; };
+		FB5E36525D75F917D9B9166909CEF0E6 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE1B112CE51021BE650F86F8175920A /* SearchResponse.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A96D9DFD3EB73EC91F1E0A48109B7864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A25D2A29E9DA057A2F6DFD70E691DCFF;
+			remoteInfo = "EgnyteSDK-EgnyteSDK";
+		};
+		CE0A228DE32477E2664DECCD7C6B50A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1510F00A76B67FA459BEBF007415993F;
+			remoteInfo = EgnyteSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03134C79E14CFE0BBC83A3961C22A4A2 /* Pods-SampleApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleApp-dummy.m"; sourceTree = "<group>"; };
+		1431D603731618AFF26C07859BBB00F8 /* ChunkDownloadRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChunkDownloadRequest.swift; sourceTree = "<group>"; };
+		1BB94ABF4508380B824D234D91EA54B8 /* EgnyteSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EgnyteSDK.framework; path = EgnyteSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F6454D3BC7527F175422259470669A /* Pods_SampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SampleApp.framework; path = "Pods-SampleApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26413424AF32845B23572B5579412D13 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26A141AA53738A34BB2C9D8E4B67054D /* RequestErrorHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RequestErrorHandler.swift; sourceTree = "<group>"; };
+		27DB739B7352ADB272272AFA44C443E5 /* LinkExpiry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LinkExpiry.swift; sourceTree = "<group>"; };
+		2FA683888CD1CAD23827B845F6A83CA3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		340F198C7376BC0190F5FD2F6A30FAB6 /* UploadRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UploadRequest.swift; sourceTree = "<group>"; };
+		35EB045EA23D8189A22D59D99F98A940 /* FolderMetadataRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FolderMetadataRequest.swift; sourceTree = "<group>"; };
+		3639016EBE40C22457011D3CDF7AA7A7 /* Pods-SampleApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleApp-resources.sh"; sourceTree = "<group>"; };
+		383501713558610A79BE7B851F6C19A6 /* ChunkedUploadRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChunkedUploadRequest.swift; sourceTree = "<group>"; };
+		38F7947A116701C3EA7C9E585F6B8EE5 /* Pods-SampleApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SampleApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		39C92A0322772B46D12DE1E9F09F9786 /* EgnyteAPIClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EgnyteAPIClient.swift; sourceTree = "<group>"; };
+		444DA79F4031932BFA363A88443505A9 /* EgnyteSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = EgnyteSDK.modulemap; sourceTree = "<group>"; };
+		48D841857530A66C5DFF1907C94442E0 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; path = en.lproj; sourceTree = "<group>"; };
+		4CD24A3B8D9585B903EFC850273AF72C /* RequestMiddleware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RequestMiddleware.swift; sourceTree = "<group>"; };
+		4FFF644D70CBF7B34056148DC5CC5278 /* EgnyteSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EgnyteSDK-umbrella.h"; sourceTree = "<group>"; };
+		50F9C3C4960F228C517BB1B48C941BBE /* LoginService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		54565A955879E06488DC4BA853823CA9 /* ListFolderContentRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListFolderContentRequest.swift; sourceTree = "<group>"; };
+		555CDC70CDAC73977A890ACBE8FBA120 /* CreateLinkRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreateLinkRequest.swift; sourceTree = "<group>"; };
+		5627F5F1FA31E6269440EC234A59BFA4 /* ListFolderContentRequestBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ListFolderContentRequestBuilder.swift; sourceTree = "<group>"; };
+		56B994561065BB6BAFC0FFFB7CE0F061 /* RequestThrottler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RequestThrottler.swift; sourceTree = "<group>"; };
+		5B994C918011567AB81536881FE80B77 /* DeleteRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DeleteRequest.swift; sourceTree = "<group>"; };
+		6D0D972C8297FF591B502D73F056F55B /* AuthRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthRequest.swift; sourceTree = "<group>"; };
+		6ED705F96133521B01D72B20EF16CD6D /* CreateLinkRequestBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreateLinkRequestBuilder.swift; sourceTree = "<group>"; };
+		746B0082E453360F0519EF278BA06C03 /* OAuthHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OAuthHelper.swift; sourceTree = "<group>"; };
+		78DE39FEE810890D011CC910876978EE /* CreateLinkResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreateLinkResponse.swift; sourceTree = "<group>"; };
+		7A2047B17D461E93FA17AF0EC8BAAD1F /* LoginViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7CD74483A4CEDB4EC2944A5556A83D8B /* AuthResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
+		7D1BEF6EB68D4AEAD070722DB55A82C9 /* EgnyteBaseRequestErrorHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EgnyteBaseRequestErrorHandler.swift; sourceTree = "<group>"; };
+		7D40CBEF202563E3FFB38A7077356EA2 /* Pods-SampleApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SampleApp.modulemap"; sourceTree = "<group>"; };
+		7FE1B112CE51021BE650F86F8175920A /* SearchResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		91B47F2C6762232C70D4BDA548192320 /* Pods-SampleApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		958113D8BF83EA0E6057B2D0561E0352 /* EgnyteSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EgnyteSDK.xcconfig; sourceTree = "<group>"; };
+		963B41573D80C4374FF804E3F5E99114 /* SearchRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchRequest.swift; sourceTree = "<group>"; };
+		977E19306D119D7023F94AC3AE17E4DE /* Pods-SampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A24D4496B6FCAE725589ADF7AAF85548 /* ValueObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ValueObserver.swift; sourceTree = "<group>"; };
+		A52E72E896627F253A19B6AE800A8D5F /* EgnyteSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EgnyteSDK-prefix.pch"; sourceTree = "<group>"; };
+		A7800AC81F3A74BF198D7B6698D25A07 /* EgnyteEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EgnyteEntity.swift; sourceTree = "<group>"; };
+		ACABF9305292182C920998FFD45EBC62 /* FileMetadataRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FileMetadataRequest.swift; sourceTree = "<group>"; };
+		B457A3075EEB2C05465753AF9A8E3FDC /* EgnyteAuthMiddleware.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EgnyteAuthMiddleware.swift; sourceTree = "<group>"; };
+		B5C21E4FB7517CE62B5175BC1F164A7B /* EgnyteErrors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EgnyteErrors.swift; sourceTree = "<group>"; };
+		C66F570C57AF0FDDB797FC88CB838DF2 /* Pods-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		C69577A198BF7F91A9C68226AF9542D9 /* UploadResponses.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UploadResponses.swift; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DFD6F8441F161C9F2ADA7B843EA371F4 /* EgnyteSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EgnyteSDK-dummy.m"; sourceTree = "<group>"; };
+		E0A41846698EC5DA173814CB68E54FD7 /* Pods-SampleApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleApp-frameworks.sh"; sourceTree = "<group>"; };
+		E2B7230D7247873DEE938D5D4D5E16FB /* CreateFolderRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreateFolderRequest.swift; sourceTree = "<group>"; };
+		E977B860C03E13D29DB276EFB4D85D9D /* ResourceBundle-EgnyteSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EgnyteSDK-Info.plist"; sourceTree = "<group>"; };
+		EF6BF6CAF0FD4A1C4DE4AED30E38CD10 /* EgnyteSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = EgnyteSDK.bundle; path = EgnyteSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BB101816B749FC6389DFCABC86A769 /* EgnyteSearchEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EgnyteSearchEntity.swift; sourceTree = "<group>"; };
+		F4F562E4ED9BBC4E070A5FD038A4C9D3 /* FileDownloadRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FileDownloadRequest.swift; sourceTree = "<group>"; };
+		F848A56EECBAC28004163D3B51979D64 /* EgnyteBaseRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EgnyteBaseRequest.swift; sourceTree = "<group>"; };
+		FAFDE20BDDFF0E8A40FBD159EB86BE41 /* Pods-SampleApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SampleApp-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02CC0EAF63057F8AA918C9655A4DFE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1CDD2AF72B4A641CB69CBBB336F8F6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A1BA69DE87B874FC385F2792688556 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6AA4CA58E128A13676B03FE153F1CB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D621315A2201EA3D016E4AAB8CC51082 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		006AFDABE7E0AA17ECAAE9DE539111B5 /* EgnyteSDK */ = {
+			isa = PBXGroup;
+			children = (
+				3C304D5092F0F43CE95B68C9F1A2CF7D /* Resources */,
+			);
+			name = EgnyteSDK;
+			path = EgnyteSDK;
+			sourceTree = "<group>";
+		};
+		1516068C09488B5D6C872059836E6253 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				1431D603731618AFF26C07859BBB00F8 /* ChunkDownloadRequest.swift */,
+				383501713558610A79BE7B851F6C19A6 /* ChunkedUploadRequest.swift */,
+				E2B7230D7247873DEE938D5D4D5E16FB /* CreateFolderRequest.swift */,
+				555CDC70CDAC73977A890ACBE8FBA120 /* CreateLinkRequest.swift */,
+				5B994C918011567AB81536881FE80B77 /* DeleteRequest.swift */,
+				F848A56EECBAC28004163D3B51979D64 /* EgnyteBaseRequest.swift */,
+				7D1BEF6EB68D4AEAD070722DB55A82C9 /* EgnyteBaseRequestErrorHandler.swift */,
+				F4F562E4ED9BBC4E070A5FD038A4C9D3 /* FileDownloadRequest.swift */,
+				ACABF9305292182C920998FFD45EBC62 /* FileMetadataRequest.swift */,
+				35EB045EA23D8189A22D59D99F98A940 /* FolderMetadataRequest.swift */,
+				54565A955879E06488DC4BA853823CA9 /* ListFolderContentRequest.swift */,
+				26A141AA53738A34BB2C9D8E4B67054D /* RequestErrorHandler.swift */,
+				963B41573D80C4374FF804E3F5E99114 /* SearchRequest.swift */,
+				340F198C7376BC0190F5FD2F6A30FAB6 /* UploadRequest.swift */,
+			);
+			name = Requests;
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		22CAD028E918D60D611C755FED6E5A0C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26686EEDA19AA85AC92A41F024E24589 /* EgnyteSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		26686EEDA19AA85AC92A41F024E24589 /* EgnyteSDK */ = {
+			isa = PBXGroup;
+			children = (
+				EBFA2D485FDAD93D5B24C85D2D73740A /* EgnyteSDK */,
+				4268F190821C3296447F2064298ED30A /* Resources */,
+				31027663F373ABBA99E3308135598E7E /* Support Files */,
+			);
+			name = EgnyteSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		31027663F373ABBA99E3308135598E7E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				444DA79F4031932BFA363A88443505A9 /* EgnyteSDK.modulemap */,
+				958113D8BF83EA0E6057B2D0561E0352 /* EgnyteSDK.xcconfig */,
+				DFD6F8441F161C9F2ADA7B843EA371F4 /* EgnyteSDK-dummy.m */,
+				A52E72E896627F253A19B6AE800A8D5F /* EgnyteSDK-prefix.pch */,
+				4FFF644D70CBF7B34056148DC5CC5278 /* EgnyteSDK-umbrella.h */,
+				26413424AF32845B23572B5579412D13 /* Info.plist */,
+				E977B860C03E13D29DB276EFB4D85D9D /* ResourceBundle-EgnyteSDK-Info.plist */,
+			);
+			name = "Support Files";
+			path = "SampleApp/Pods/Target Support Files/EgnyteSDK";
+			sourceTree = "<group>";
+		};
+		3C304D5092F0F43CE95B68C9F1A2CF7D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				48D841857530A66C5DFF1907C94442E0 /* en.lproj */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3D38DD4AFCE429A93844A67994A1F277 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C45F4EF14B2F86A4B21A1E2B91082079 /* Pods-SampleApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4268F190821C3296447F2064298ED30A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				006AFDABE7E0AA17ECAAE9DE539111B5 /* EgnyteSDK */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		66EF36162D7AB32E2FBAD9B9E432221B /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				6D0D972C8297FF591B502D73F056F55B /* AuthRequest.swift */,
+				7CD74483A4CEDB4EC2944A5556A83D8B /* AuthResponse.swift */,
+				50F9C3C4960F228C517BB1B48C941BBE /* LoginService.swift */,
+				7A2047B17D461E93FA17AF0EC8BAAD1F /* LoginViewController.swift */,
+				746B0082E453360F0519EF278BA06C03 /* OAuthHelper.swift */,
+			);
+			name = Auth;
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				22CAD028E918D60D611C755FED6E5A0C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E219FF1A949282CDB3147636E5FE4401 /* Products */,
+				3D38DD4AFCE429A93844A67994A1F277 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FDE580468D6688A67A2C357455ED788 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6ED705F96133521B01D72B20EF16CD6D /* CreateLinkRequestBuilder.swift */,
+				5627F5F1FA31E6269440EC234A59BFA4 /* ListFolderContentRequestBuilder.swift */,
+				A24D4496B6FCAE725589ADF7AAF85548 /* ValueObserver.swift */,
+			);
+			name = Utils;
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		93AF879084111E33F42E8C228CAA4E77 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				B5C21E4FB7517CE62B5175BC1F164A7B /* EgnyteErrors.swift */,
+			);
+			name = Errors;
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		A680E850CEF5F19446F194870365585D /* EgnyteAPIClient */ = {
+			isa = PBXGroup;
+			children = (
+				39C92A0322772B46D12DE1E9F09F9786 /* EgnyteAPIClient.swift */,
+				B457A3075EEB2C05465753AF9A8E3FDC /* EgnyteAuthMiddleware.swift */,
+				4CD24A3B8D9585B903EFC850273AF72C /* RequestMiddleware.swift */,
+				56B994561065BB6BAFC0FFFB7CE0F061 /* RequestThrottler.swift */,
+			);
+			name = EgnyteAPIClient;
+			path = EgnyteAPIClient;
+			sourceTree = "<group>";
+		};
+		AB32C6EEFE9CA84CA48E8C5DA680AF99 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				78DE39FEE810890D011CC910876978EE /* CreateLinkResponse.swift */,
+				A7800AC81F3A74BF198D7B6698D25A07 /* EgnyteEntity.swift */,
+				F4BB101816B749FC6389DFCABC86A769 /* EgnyteSearchEntity.swift */,
+				27DB739B7352ADB272272AFA44C443E5 /* LinkExpiry.swift */,
+				7FE1B112CE51021BE650F86F8175920A /* SearchResponse.swift */,
+				C69577A198BF7F91A9C68226AF9542D9 /* UploadResponses.swift */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C45F4EF14B2F86A4B21A1E2B91082079 /* Pods-SampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				2FA683888CD1CAD23827B845F6A83CA3 /* Info.plist */,
+				7D40CBEF202563E3FFB38A7077356EA2 /* Pods-SampleApp.modulemap */,
+				91B47F2C6762232C70D4BDA548192320 /* Pods-SampleApp-acknowledgements.markdown */,
+				38F7947A116701C3EA7C9E585F6B8EE5 /* Pods-SampleApp-acknowledgements.plist */,
+				03134C79E14CFE0BBC83A3961C22A4A2 /* Pods-SampleApp-dummy.m */,
+				E0A41846698EC5DA173814CB68E54FD7 /* Pods-SampleApp-frameworks.sh */,
+				3639016EBE40C22457011D3CDF7AA7A7 /* Pods-SampleApp-resources.sh */,
+				FAFDE20BDDFF0E8A40FBD159EB86BE41 /* Pods-SampleApp-umbrella.h */,
+				977E19306D119D7023F94AC3AE17E4DE /* Pods-SampleApp.debug.xcconfig */,
+				C66F570C57AF0FDDB797FC88CB838DF2 /* Pods-SampleApp.release.xcconfig */,
+			);
+			name = "Pods-SampleApp";
+			path = "Target Support Files/Pods-SampleApp";
+			sourceTree = "<group>";
+		};
+		C92BD7F47D6FE44C9FE48CF4D23D05C4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				66EF36162D7AB32E2FBAD9B9E432221B /* Auth */,
+				A680E850CEF5F19446F194870365585D /* EgnyteAPIClient */,
+				93AF879084111E33F42E8C228CAA4E77 /* Errors */,
+				AB32C6EEFE9CA84CA48E8C5DA680AF99 /* Models */,
+				1516068C09488B5D6C872059836E6253 /* Requests */,
+				7FDE580468D6688A67A2C357455ED788 /* Utils */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E219FF1A949282CDB3147636E5FE4401 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF6BF6CAF0FD4A1C4DE4AED30E38CD10 /* EgnyteSDK.bundle */,
+				1BB94ABF4508380B824D234D91EA54B8 /* EgnyteSDK.framework */,
+				21F6454D3BC7527F175422259470669A /* Pods_SampleApp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBFA2D485FDAD93D5B24C85D2D73740A /* EgnyteSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C92BD7F47D6FE44C9FE48CF4D23D05C4 /* Classes */,
+			);
+			name = EgnyteSDK;
+			path = EgnyteSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C2AC23318A48583BF3E90E8A090AB806 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C28BC009D7944C1EC20AAE2127D4D0 /* Pods-SampleApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA7390BFD61FA9D0977BD1E37DBD1F9D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E8B3C7E5392B18946885D650ED30CB /* EgnyteSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1510F00A76B67FA459BEBF007415993F /* EgnyteSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7DE0FAA02D5769D67C8B623DB92D8BF /* Build configuration list for PBXNativeTarget "EgnyteSDK" */;
+			buildPhases = (
+				C9E67773CCE4FD521DF24CA0E7F6642F /* Sources */,
+				E6AA4CA58E128A13676B03FE153F1CB8 /* Frameworks */,
+				5A9330FFFBBC7AC2AD2A0E2ED0F98CFB /* Resources */,
+				CA7390BFD61FA9D0977BD1E37DBD1F9D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4595F919298A2F685F3216C8C05D6A5 /* PBXTargetDependency */,
+			);
+			name = EgnyteSDK;
+			productName = EgnyteSDK;
+			productReference = 1BB94ABF4508380B824D234D91EA54B8 /* EgnyteSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A25D2A29E9DA057A2F6DFD70E691DCFF /* EgnyteSDK-EgnyteSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB2B43818C15214C0F78B7C14F181F26 /* Build configuration list for PBXNativeTarget "EgnyteSDK-EgnyteSDK" */;
+			buildPhases = (
+				D1046F1BF80ABC2EABC7E2D9849F3741 /* Sources */,
+				02CC0EAF63057F8AA918C9655A4DFE01 /* Frameworks */,
+				2E020259667F6027CD3D322FC57D99BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EgnyteSDK-EgnyteSDK";
+			productName = "EgnyteSDK-EgnyteSDK";
+			productReference = EF6BF6CAF0FD4A1C4DE4AED30E38CD10 /* EgnyteSDK.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D8154CB2E4F1C1540267DD07FE1F80F6 /* Pods-SampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29AC947EC0C88CD92A24F3ECFC2C2FE2 /* Build configuration list for PBXNativeTarget "Pods-SampleApp" */;
+			buildPhases = (
+				B6E716DE737873373A715E7FC1958391 /* Sources */,
+				B1CDD2AF72B4A641CB69CBBB336F8F6B /* Frameworks */,
+				C2AC23318A48583BF3E90E8A090AB806 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65EF5D38D5A3A3401907F1CFCF599453 /* PBXTargetDependency */,
+			);
+			name = "Pods-SampleApp";
+			productName = "Pods-SampleApp";
+			productReference = 21F6454D3BC7527F175422259470669A /* Pods_SampleApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E219FF1A949282CDB3147636E5FE4401 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1510F00A76B67FA459BEBF007415993F /* EgnyteSDK */,
+				A25D2A29E9DA057A2F6DFD70E691DCFF /* EgnyteSDK-EgnyteSDK */,
+				D8154CB2E4F1C1540267DD07FE1F80F6 /* Pods-SampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E020259667F6027CD3D322FC57D99BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543B741C486417EBC93CCCED937D5233 /* en.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9330FFFBBC7AC2AD2A0E2ED0F98CFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8CCA57428254D0A3DC115EB20D33E2 /* EgnyteSDK.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6E716DE737873373A715E7FC1958391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA138AAA09FAF7DE7D5F5CAA6C193961 /* Pods-SampleApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E67773CCE4FD521DF24CA0E7F6642F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E8899AEA59050D32AA53419848123F /* AuthRequest.swift in Sources */,
+				DC7DB3629540DBEE7A4C339E6B67EABA /* AuthResponse.swift in Sources */,
+				90513B2AE398FB725B1E11DF04ADF5F0 /* ChunkDownloadRequest.swift in Sources */,
+				F3C736E2297E19E2471B06ED349BEFCB /* ChunkedUploadRequest.swift in Sources */,
+				2370CBD0FEDDCB1888E5836284FD751D /* CreateFolderRequest.swift in Sources */,
+				8085C9BD9867A03E3E5C7BEC5AFDD746 /* CreateLinkRequest.swift in Sources */,
+				4121BD4D5D8062393270F277F9D95336 /* CreateLinkRequestBuilder.swift in Sources */,
+				7B9105D7972843861B6EC6CF91542B00 /* CreateLinkResponse.swift in Sources */,
+				21ED3A5AA6D248B1286692135A3D1047 /* DeleteRequest.swift in Sources */,
+				CDDBB620C4E17BD23B993765AE9C78D3 /* EgnyteAPIClient.swift in Sources */,
+				A320235E9877AF3C3F5AC543D64E97D2 /* EgnyteAuthMiddleware.swift in Sources */,
+				8ABE9A8423461B0087EEA0326B5A0AB1 /* EgnyteBaseRequest.swift in Sources */,
+				4A9C56411EFB910318799C585F6C44D3 /* EgnyteBaseRequestErrorHandler.swift in Sources */,
+				1E5EE45F0E4C950B8ADB603297EF7F97 /* EgnyteEntity.swift in Sources */,
+				A95A3FC8E411F8A613287B6A1F912854 /* EgnyteErrors.swift in Sources */,
+				7E1576BC0CB3322E0546E2EF66A5AC88 /* EgnyteSDK-dummy.m in Sources */,
+				BBC8CC8397CE00D29EC557A2730CCAC5 /* EgnyteSearchEntity.swift in Sources */,
+				5262E483701396170F3CECB76E9CF1A7 /* FileDownloadRequest.swift in Sources */,
+				28138AFEDE4F8C7CC04978D9E00EB79D /* FileMetadataRequest.swift in Sources */,
+				C00125A6911CFD52032B733933CA5865 /* FolderMetadataRequest.swift in Sources */,
+				66B5561B588F421D8333DC54A80F0157 /* LinkExpiry.swift in Sources */,
+				55ECF743C69732F640681D6AE7F99B67 /* ListFolderContentRequest.swift in Sources */,
+				2B40C7F3AA39BB24D779837277A6F9BD /* ListFolderContentRequestBuilder.swift in Sources */,
+				712542EB1400DE16F39C289DBAA2EEF1 /* LoginService.swift in Sources */,
+				17EC6E79DB176BE4136C10B6A4109007 /* LoginViewController.swift in Sources */,
+				3208BD197CF3AC71E569D1B55A14E5FB /* OAuthHelper.swift in Sources */,
+				4726E41D6AF8053146048101DD623441 /* RequestErrorHandler.swift in Sources */,
+				65BFBF0B28132A707340294A77FBABDC /* RequestMiddleware.swift in Sources */,
+				245AF0E861D1AD3CE8944256B942DEC2 /* RequestThrottler.swift in Sources */,
+				2DBFE957E5ED79801012829B91E804B6 /* SearchRequest.swift in Sources */,
+				FB5E36525D75F917D9B9166909CEF0E6 /* SearchResponse.swift in Sources */,
+				340ABA1B5E27C31BFE8A7EEA97902543 /* UploadRequest.swift in Sources */,
+				80DF1E2879F87C1CCC349A640CEEDDD7 /* UploadResponses.swift in Sources */,
+				820244820365C87F5A2CAEA41544E85E /* ValueObserver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1046F1BF80ABC2EABC7E2D9849F3741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65EF5D38D5A3A3401907F1CFCF599453 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EgnyteSDK;
+			target = 1510F00A76B67FA459BEBF007415993F /* EgnyteSDK */;
+			targetProxy = CE0A228DE32477E2664DECCD7C6B50A9 /* PBXContainerItemProxy */;
+		};
+		B4595F919298A2F685F3216C8C05D6A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "EgnyteSDK-EgnyteSDK";
+			target = A25D2A29E9DA057A2F6DFD70E691DCFF /* EgnyteSDK-EgnyteSDK */;
+			targetProxy = A96D9DFD3EB73EC91F1E0A48109B7864 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		471D329A4F556C72C06614C85E437B37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958113D8BF83EA0E6057B2D0561E0352 /* EgnyteSDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EgnyteSDK/EgnyteSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EgnyteSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EgnyteSDK/EgnyteSDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EgnyteSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		515FC94045A417E3D5ED051D855CD3D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958113D8BF83EA0E6057B2D0561E0352 /* EgnyteSDK.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EgnyteSDK";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/EgnyteSDK/ResourceBundle-EgnyteSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = EgnyteSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5BBC3B449E3E0FE22F51B9C8A6E8DB36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977E19306D119D7023F94AC3AE17E4DE /* Pods-SampleApp.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SampleApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SampleApp/Pods-SampleApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SampleApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79973A96D0AF4E531069DB753EB5B1DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958113D8BF83EA0E6057B2D0561E0352 /* EgnyteSDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EgnyteSDK/EgnyteSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EgnyteSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EgnyteSDK/EgnyteSDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EgnyteSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D168938F1C950F6CCA3EE385575566D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958113D8BF83EA0E6057B2D0561E0352 /* EgnyteSDK.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EgnyteSDK";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/EgnyteSDK/ResourceBundle-EgnyteSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = EgnyteSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D60D20EBD575D9B752011385B274239C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C66F570C57AF0FDDB797FC88CB838DF2 /* Pods-SampleApp.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SampleApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SampleApp/Pods-SampleApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SampleApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29AC947EC0C88CD92A24F3ECFC2C2FE2 /* Build configuration list for PBXNativeTarget "Pods-SampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BBC3B449E3E0FE22F51B9C8A6E8DB36 /* Debug */,
+				D60D20EBD575D9B752011385B274239C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB2B43818C15214C0F78B7C14F181F26 /* Build configuration list for PBXNativeTarget "EgnyteSDK-EgnyteSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515FC94045A417E3D5ED051D855CD3D8 /* Debug */,
+				D168938F1C950F6CCA3EE385575566D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7DE0FAA02D5769D67C8B623DB92D8BF /* Build configuration list for PBXNativeTarget "EgnyteSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				471D329A4F556C72C06614C85E437B37 /* Debug */,
+				79973A96D0AF4E531069DB753EB5B1DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

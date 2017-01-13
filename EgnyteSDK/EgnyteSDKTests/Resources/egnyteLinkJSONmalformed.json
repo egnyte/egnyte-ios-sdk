@@ -1,0 +1,26 @@
+{
+    "links": [
+              {
+              "id": "66ilRMjSCz",
+              "url": "https://qaaa.egnyte.com/dl/66ilRMjSCz",
+              "recipients": [
+                             "test1@.op.pl"
+                             ]
+              },
+              {
+              "id": "jmg1fdUFrg",
+              "url": "https://qaaa.egnyte.com/dl/jmg1fdUFrg",
+              "recipients": [
+                             "test2@.gg.com"
+                             ]
+              }
+              ],
+    "path": "/Shared/!!___Adam/aaaa.txt",
+    "type": "file",
+    "accessibility": "anyone",
+    "notify": false,
+    "link_to_current": false,
+    "creation_date": "2016-11-16",
+    "send_mail": "malformed",
+    "copy_me": false
+}

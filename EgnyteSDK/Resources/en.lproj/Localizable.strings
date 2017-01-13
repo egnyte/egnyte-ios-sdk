@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  EgnyteSDK
+
+  Created by MP0091 on 27.10.2016.
+  Copyright © 2016 Egnyte. All rights reserved.
+*/
+
+
+"kAccessDeniedFailureErrorDesc" = "User denied access to Egnyte.";
+"kInvalidResponseStateParameterErrorDesc" = "State parameter in response is different. It may be effect of cross-site request forgery. Checkout OAtuh 2.0 specification to learn more.";
+"kUserResignedErrorDesc" = "User cancelled auth process.";
+"kUnexpectedResponse" = "Unexpected response from server.";
+"kDeveloperOverRate" = "Exceeded daily quota. Retry after: %f seconds.";
+"kDeveloperOverQPS" = "Exceeded per second throttle. Retry after: %f seconds.";
+"kExpectedFileError" = "Expected file, but received folder.";
+"kExpectedFolderError" = "Expected folder, but received file.";

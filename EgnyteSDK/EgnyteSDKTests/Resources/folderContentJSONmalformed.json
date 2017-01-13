@@ -1,0 +1,315 @@
+{
+    "name": "!!___Adam",
+    "lastModified": 1477614023000,
+    "permissions": {
+        "users": [
+                  {
+                  "subject": "skwon",
+                  "permission": "Owner"
+                  },
+                  {
+                  "subject": "ssong",
+                  "permission": "Owner"
+                  },
+                  {
+                  "subject": "dbalut",
+                  "permission": "Owner"
+                  },
+                  {
+                  "subject": "skwon_admin",
+                  "permission": "Owner"
+                  },
+                  {
+                  "subject": "ankita.porwal",
+                  "permission": "Owner"
+                  },
+                  {
+                  "subject": "emptyname",
+                  "permission": "Owner"
+                  },
+                  {
+                  "subject": "msikora",
+                  "permission": "Owner"
+                  },
+                  {
+                  "subject": "psienkiewicz",
+                  "permission": "Owner"
+                  },
+                  {
+                  "subject": "mpiatkowiak",
+                  "permission": "Owner"
+                  },
+                  {
+                  "subject": "joe",
+                  "permission": "Owner"
+                  },
+                  {
+                  "subject": "asdf1",
+                  "permission": "Owner"
+                  }
+                  ],
+        "groups": []
+    },
+    "count": 0,
+    "offset": 0,
+    "path_malformed": "/Shared/!!___Adam",
+    "permission": "Owner",
+    "folder_id": "f8e17cc8-fbff-4dfb-8214-cbc87044ac06",
+    "allowed_file_link_types": [
+                                "anyone",
+                                "password",
+                                "domain",
+                                "recipients"
+                                ],
+    "allowed_folder_link_types": [
+                                  "anyone",
+                                  "password",
+                                  "domain",
+                                  "recipients"
+                                  ],
+    "allow_upload_links": true,
+    "total_count": 318,
+    "is_folder": true,
+    "public_links": "files_folders",
+    "restrict_move_delete": true,
+    "allow_links": true,
+    "los folderos": [
+                {
+                "name": "2 pliki",
+                "lastModified": 1475066357000,
+                "path": "/Shared/!!___Adam/2 pliki",
+                "permission": "Owner",
+                "folder_id": "27863b74-6932-4936-ae03-78eca5ef13f0",
+                "allowed_file_link_types": [
+                                            "anyone",
+                                            "password",
+                                            "domain",
+                                            "recipients"
+                                            ],
+                "allowed_folder_link_types": [
+                                              "anyone",
+                                              "password",
+                                              "domain",
+                                              "recipients"
+                                              ],
+                "allow_upload_links": true,
+                "is_folder": true
+                },
+                {
+                "name": "aaaa",
+                "lastModified": 1475067027000,
+                "path": "/Shared/!!___Adam/aaaa",
+                "permission": "Owner",
+                "folder_id": "2934aedc-3c39-43e7-8bd9-3212f0ed3886",
+                "allowed_file_link_types": [
+                                            "anyone",
+                                            "password",
+                                            "domain",
+                                            "recipients"
+                                            ],
+                "allowed_folder_link_types": [
+                                              "anyone",
+                                              "password",
+                                              "domain",
+                                              "recipients"
+                                              ],
+                "allow_upload_links": true,
+                "is_folder": true
+                },
+                {
+                "name": "New folder",
+                "lastModified": 1470389848000,
+                "path": "/Shared/!!___Adam/New folder",
+                "permission": "Owner",
+                "folder_id": "8b9542a9-d6a2-4765-b464-818e43c49825",
+                "allowed_file_link_types": [
+                                            "anyone",
+                                            "password",
+                                            "domain",
+                                            "recipients"
+                                            ],
+                "allowed_folder_link_types": [
+                                              "anyone",
+                                              "password",
+                                              "domain",
+                                              "recipients"
+                                              ],
+                "allow_upload_links": true,
+                "is_folder": true
+                },
+                {
+                "name": "txt",
+                "lastModified": 1474023671000,
+                "path": "/Shared/!!___Adam/txt",
+                "permission": "Owner",
+                "folder_id": "75135bad-257b-4d3f-a0a8-687d4f217df4",
+                "allowed_file_link_types": [
+                                            "anyone",
+                                            "password",
+                                            "domain",
+                                            "recipients"
+                                            ],
+                "allowed_folder_link_types": [
+                                              "anyone",
+                                              "password",
+                                              "domain",
+                                              "recipients"
+                                              ],
+                "allow_upload_links": true,
+                "is_folder": true
+                },
+                {
+                "name": "uploads.hhh",
+                "lastModified": 1470143871000,
+                "path": "/Shared/!!___Adam/uploads.hhh",
+                "permission": "Owner",
+                "folder_id": "d9fa9507-4c71-4b28-8860-f9667f3f83ad",
+                "allowed_file_link_types": [
+                                            "anyone",
+                                            "password",
+                                            "domain",
+                                            "recipients"
+                                            ],
+                "allowed_folder_link_types": [
+                                              "anyone",
+                                              "password",
+                                              "domain",
+                                              "recipients"
+                                              ],
+                "allow_upload_links": true,
+                "is_folder": true
+                }
+                ],
+    "files": [
+              {
+              "checksum": "11b658f1b5681529185345de06b972e23c3a16b5242b5b9d14472b977bd4e20cf3a709d8926d921c355695bcbe47050ea5bc2da2bc3cd17d815634cd490c6af1",
+              "size": 176139,
+              "path": "/Shared/!!___Adam/1472045999709.jpeg",
+              "name": "1472045999709.jpeg",
+              "locked": false,
+              "is_folder": false,
+              "entry_id": "d80bcb33-ae05-4436-8cab-25df3f90a816",
+              "group_id": "eb1d9731-35f9-44b2-9d0d-651807cea004",
+              "last_modified": "Wed, 24 Aug 2016 13:40:10 GMT",
+              "uploaded_by": "asdf1",
+              "num_versions": 1
+              },
+              {
+              "checksum": "00b73df93656e960199ecf345272e41356a9df635238d876113b32c6a557a6e12ec3faef3d143d5ebe82c137364ff8a2bcebecb335e7c089e69f8194a1a4587b",
+              "size": 5,
+              "path": "/Shared/!!___Adam/aaaa.txt",
+              "name": "aaaa.txt",
+              "locked": false,
+              "is_folder": false,
+              "entry_id": "98f7c93e-d6af-4cb8-8b1d-370c86bb4f7e",
+              "group_id": "e0d59cbe-e32e-4830-bf21-a18ed82232b8",
+              "last_modified": "Fri, 16 Sep 2016 10:26:35 GMT",
+              "uploaded_by": "asdf1",
+              "num_versions": 1
+              },
+              {
+              "checksum": "4765f1548105a287898a725f161c7bef02c360dac9d02247fbc9c683601cb34a5b9a78f24d2c8b332f8de83dc8f34a7f5e5f89a7a7c3958da09563b24a97e79e",
+              "size": 1489979,
+              "path": "/Shared/!!___Adam/aaaaaa batman logo moo.jpg",
+              "name": "aaaaaa batman logo moo.jpg",
+              "locked": false,
+              "is_folder": false,
+              "entry_id": "bd1bf936-7c09-4946-86ea-131399074445",
+              "group_id": "c4ed9860-04c0-4a59-9985-38fa48a965d3",
+              "last_modified": "Tue, 02 Aug 2016 13:19:26 GMT",
+              "uploaded_by": "asdf1",
+              "num_versions": 1
+              },
+              {
+              "checksum": "48fb10b15f3d44a09dc82d02b06581e0c0c69478c9fd2cf8f9093659019a1687baecdbb38c9e72b12169dc4148690f87467f9154f5931c5df665c6496cbfd5f5",
+              "size": 1,
+              "path": "/Shared/!!___Adam/aaaaaa.txt",
+              "name": "aaaaaa.txt",
+              "locked": false,
+              "is_folder": false,
+              "entry_id": "0ebd954a-99da-47f1-a2a1-b7a75befbab2",
+              "group_id": "2a7ef6fa-fa1e-4d1f-9254-46f96259a373",
+              "last_modified": "Fri, 02 Oct 2015 10:11:07 GMT",
+              "uploaded_by": "asdf1",
+              "num_versions": 1
+              },
+              {
+              "checksum": "91c1b27aeeb6e17973cee1ea418693701c3c36c805795741eb39f032b3b1d8e916578f84d5399263236b8b0d6a0124d40053cb51b631331a393694010c2b88aa",
+              "size": 262397,
+              "path": "/Shared/!!___Adam/aaaaaaa-7.pages",
+              "name": "aaaaaaa-7.pages",
+              "locked": false,
+              "is_folder": false,
+              "entry_id": "21dea084-41c0-4d78-99ae-e5bb84a7873e",
+              "group_id": "58d2cffb-85d0-4e87-ba3c-c32c1326460c",
+              "last_modified": "Tue, 07 Jun 2016 08:31:16 GMT",
+              "uploaded_by": "asdf1",
+              "num_versions": 2
+              },
+              {
+              "checksum": "4b9d3709f833d1f06ff7309b4181c1b061a53b8a5a8a9d56fc4e8eb3f52f49bc188523ae39afd66e93627e265dc5eeb9da87932d4d820f1173985948a0a9412f",
+              "size": 442536,
+              "path": "/Shared/!!___Adam/da.pdf",
+              "name": "da.pdf",
+              "locked": false,
+              "is_folder": false,
+              "entry_id": "11f83ea1-4819-4665-a747-69770cf76b4a",
+              "group_id": "1ec162b8-3613-445a-9256-3f5b70fd5316",
+              "last_modified": "Wed, 10 Aug 2016 21:39:35 GMT",
+              "uploaded_by": "asdf1",
+              "num_versions": 2
+              },
+              {
+              "checksum": "6b7a6b095ebfdac298fb46fcd9bd901ebdac90d3fc2471e51cac09177ebb8346e2ac75d026dfface872744601f90800fa2e1d16ecc0bc62c8db7819b918f91eb",
+              "size": 25438,
+              "path": "/Shared/!!___Adam/Document44a.docx",
+              "name": "Document44a.docx",
+              "locked": false,
+              "is_folder": false,
+              "entry_id": "11650ff1-c7bf-4cdd-880a-79ff6354a409",
+              "group_id": "c588b13a-0317-4b10-a3c9-4e45ee808656",
+              "last_modified": "Thu, 12 May 2016 08:42:38 GMT",
+              "uploaded_by": "asdf1",
+              "num_versions": 4
+              },
+              {
+              "checksum": "21ffcbc04e730f9dd41002847a1991b78b07992a70ceaabdb0544135f2ec63c1f62c05b1063617f998450f1f71a96bddf9e4f0ea9898119a4f7fa7f4cefa4d99",
+              "size": 24632,
+              "path": "/Shared/!!___Adam/Dokumejj.docx",
+              "name": "Dokumejj.docx",
+              "locked": false,
+              "is_folder": false,
+              "entry_id": "c3b15789-2f22-41b3-bdc9-17340604be85",
+              "group_id": "094521b7-ad0f-4918-81e2-fa4c7f9a2469",
+              "last_modified": "Wed, 20 Apr 2016 14:23:50 GMT",
+              "uploaded_by": "asdf1",
+              "num_versions": 4
+              },
+              {
+              "checksum": "beb79d769dcb340b0ffc821537dab2cfaae2683ad3f056e678acd532824ba7c607fdffcd0b2f228177a8382cc4c452e9207e7f3f5e3227ea02b3ef9a44a027b8",
+              "size": 8025,
+              "path": "/Shared/!!___Adam/Essay.pdf",
+              "name": "Essay.pdf",
+              "locked": false,
+              "is_folder": false,
+              "entry_id": "d8898326-1a67-4f32-a2bb-1c4b439f1cde",
+              "group_id": "151cf6d8-0219-4cbc-a1cd-6d80d2736653",
+              "last_modified": "Wed, 30 Sep 2015 10:20:12 GMT",
+              "uploaded_by": "asdf1",
+              "num_versions": 1
+              },
+              {
+              "checksum": "266f72824cae9c41e94b3be8ded4f4c58012750246013f01fa171242405ebe13c72eba54dfa74cf98aa83ef7fbfd0683a02104b1d2a4af734cbcf0793aadfdcd",
+              "size": 74138,
+              "path": "/Shared/!!___Adam/Essaydsds.pages",
+              "name": "Essaydsds.pages",
+              "locked": false,
+              "is_folder": false,
+              "entry_id": "d366fb4c-3c22-4bfd-ba2c-c58940a7fcde",
+              "group_id": "f08b2cce-1fc7-4073-8a4c-718d4a18436d",
+              "last_modified": "Wed, 30 Sep 2015 13:43:14 GMT",
+              "uploaded_by": "asdf1",
+              "num_versions": 2
+              }
+              ]
+}
